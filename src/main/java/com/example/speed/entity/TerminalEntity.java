@@ -24,4 +24,6 @@ public class TerminalEntity {
     private Timestamp createdDate;
     @Column(name = "status")
     private Boolean status;
+    @Column(name = "output")
+    private String output;
 }
