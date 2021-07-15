@@ -1,0 +1,14 @@
+app:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://database-2.cqtvfbfp2dbv.ap-southeast-1.rds.amazonaws.com:3306/scrup
+    username: admin
+    password: namanh77
+
+  constant:
+    split-index: ";7421;"
+
+server:
+  port: 8765
+  servlet:
+    context-path: "/speed"
